@@ -420,7 +420,7 @@ namespace PlanetsSpaceships
             {
                 foreach(var (probeName, planets) in spacecraftList)
                 {
-                    //check if the plant we are on is included in the Dictionary of spacecrafts adn planets they visited.
+                    //check if the planet we are on is included in the Dictionary of spacecrafts and planets they visited.
                     if (planets.Contains(planet))
                     {
                         //if the planet is included, then add a new item to the new Dictionary we just created that has the planet name as the key and that adds the probe name to the value list
